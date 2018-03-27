@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chandresh UI</title>
+	<link rel="stylesheet" type="text/css" href="Chandresh.css">
+	<script type="text/javascript">
+		function show(i)
+		{
+			document.getElementById(i).style.visibility='visible';
+			function change(){
+
+						document.getElementById(this).style.borderBottomStyle = '3px solid #1E92FF';
+				}
+		}
+	</script>
+</head>
+<body>
+	<img src="logo.png" height="380px" width="360px" id="logo">
+	<div class="menu">
+			<div class="head">
+				<ul id="head-list" >
+					<li class="head-icons" onclick="show('bottom-list')" >
+						<a href="#" onclick="show('bottom-list')">
+						 <div>
+							<img src="bookmark.png" height="35px" width="40px" align="center" class="icons">
+							<p>Favorites</p>	
+						  </div>
+						</a>
+					</li>
+					<li class="head-icons">
+						<a href="">
+						<div>
+							<img src="applications.png" height="35px" width="33px" align="center" class="icons">
+							<p>Applications</p>
+						</div>
+						</a>
+					</li>
+					<li class="head-icons">
+						<a href="">
+						<div>
+							<img src="pc.png" height="35px" width="33px" align="center" class="icons">
+							<p>Computer</p>
+						</div>
+						</a>
+					</li>
+					<li class="head-icons">
+						<a href="">
+						<div>
+							<img src="history.png" height="35px" width="33px" align="center" class="icons">
+							<p>History</p>
+						</div>
+						</a>
+					</li>
+					<li class="head-icons">
+						<a href="">
+						<div>
+							<img src="leave.png" height="35px" width="33px" align="center" class="icons">
+							<p>Leave</p>
+						</div>
+						</a>
+					</li>
+				</ul>								
+			</div>
+	</div>
+	<div class="bottom">
+				<ul id="bottom-list">
+					<li class="bottom-list-icons" >
+						<img src="chrome.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							Web Browser <br>
+							<span>Google chrome</span>
+						</p>
+					</li>
+					<li class="bottom-list-icons">
+						<img src="file-manager.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							File Manager <br>
+							<span>Dolphin</span>
+						</p>
+					</li>
+					<li class="bottom-list-icons">
+						<img src="atom.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							Text Editor <br>
+							<span>Atom Beta</span>
+						</p>
+					</li>
+					<li class="bottom-list-icons">
+						<img src="konsole.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							Terminal  <br>
+							<span>Konsole</span>
+						</p>
+					</li>
+					<li class="bottom-list-icons">
+						<img src="software-center.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							Software Center <br>
+							<span>Discover</span>
+						</p>
+					</li>
+					<li class="bottom-list-icons">
+						<img src="settings.png" height="35px" width="35px" align="left" class="bottom-icons">
+						<p class="bottom-text">
+							System Settings <br>
+							<span>System Setting</span>
+						</p>
+					</li>
+				</ul>
+
+				<img src="web.png" height="55px" width="55px" id="webpng">
+				<h2>Chandresh Kanani</h2>
+				<span id="id">cskanani@blackpearl(KDE neon User Edition 5.9 )</span>
+			</div>
+</body>
+</html>
